@@ -22,6 +22,8 @@ https://hackernoon.com/threaded-asynchronous-magic-and-how-to-wield-it-bba9ed602
 autoscaling flow control issue
 https://github.com/googleapis/google-cloud-python/issues/4912
 
+NVD database setup:
+https://github.com/cve-search/cve-search
 
 
 Driver
