@@ -27,6 +27,7 @@ https://github.com/cve-search/cve-search
 
 
 Driver
+
 create_graph: function generates a two-dimensional graph with nodes assigned a random vulnerability. as Explained earlier also, these would be actual vulnerabilities existing on a node when a real user uploads the graph of their actual network.
 
 
@@ -41,6 +42,7 @@ publish: This method publishes the JSON object on the pub/sub queue and generate
 check_for_output: Polls the storage bucket for output matching the message id received from publishing method.
 
 Worker
+
 subscribe: This method makes this code a subscriber to pull messages published on the queue. A single subscriber can process multiple requests in parallel.
 
 get_score: this method takes cve-id as input and searches the NVD database extracts the CVSS score normalizes it dividing by 10 to make it a probability of compromising the node.
